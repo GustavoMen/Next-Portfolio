@@ -63,6 +63,9 @@ export const BtnSectionOne = styled.button`
 
 export const SectionTwo = styled.section`
   max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Title = styled.h2`
@@ -73,10 +76,10 @@ export const Title = styled.h2`
 `;
 
 export const DivTechs = styled.div`
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 export const ContainerTech = styled.div`
