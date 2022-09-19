@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer/Footer";
 
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
+      <Footer />
 
     </>
   );

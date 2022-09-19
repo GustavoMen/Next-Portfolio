@@ -53,6 +53,7 @@ export const BtnSectionOne = styled.button`
   color: #57bdd1;
   transition: ease-out 0.5s;
   font-size: 18px;
+  cursor: pointer;
 
   &:hover {
     background-color: #57bdd1;
