@@ -1,4 +1,4 @@
-import GlobalStyle from '../components/globalstyles'
+import GlobalStyle from '../components/globalStyles'
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
