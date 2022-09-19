@@ -1,12 +1,13 @@
 import GlobalStyle from '../components/globalstyles'
+import Navbar from '../components/Navbar/Navbar';
 
 function MyApp({ Component, pageProps }) {
 
   return (
     <>
-
       <GlobalStyle />
-      <Component {...pageProps} />;
+      <Navbar />
+      <Component {...pageProps} />
     </>
   )
   
