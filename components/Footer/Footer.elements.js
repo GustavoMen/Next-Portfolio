@@ -28,22 +28,22 @@ export const ImageFooter = styled.img`
   overflow: hidden;
   position: absolute;
   bottom: 160px;
-  left: 45%;
+  left: 48%;
 
   @media screen and (max-width: 1000px) {
     bottom: 190px;
   }
   @media screen and (max-width: 800px) {
-    left: 42%;
+    left: 44%;
   }
   @media screen and (max-width: 550px) {
-    left: 37%;
+    left: 41%;
   }
   @media screen and (max-width: 426px) {
     bottom: 220px;
   }
-  @media screen and (max-width: 321px) {
-    left: 32%;
+  @media screen and (max-width: 390px) {
+    left: 37%;
   }
 `;
 

@@ -19,17 +19,18 @@ export default function Home() {
           <SecundaryText>Desenvolvedor Full Stack</SecundaryText>
           <AboutText>Desenvolvedor Full Stack, com experiência de atuação como Desenvolvedor Freelancer para pequenos projetos do mercado.</AboutText>
           <DivBtns>
+            <Link href="/experience">
+              <a>
+                <BtnSectionOne>Ver projetos</BtnSectionOne>
+              </a>
+            </Link>
+
             <Link href="/contact">
               <a>
                 <BtnSectionOne>Entre em contato</BtnSectionOne>
               </a>
             </Link>
 
-            <Link href="/experience">
-              <a>
-                <BtnSectionOne>Ver projetos</BtnSectionOne>
-              </a>
-            </Link>
           </DivBtns>
         </ContainerText>
       </SectionOne>

@@ -12,6 +12,10 @@ export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
+
+  @media screen and (max-width: 1000px) {
+    width: 80vw;
+  }
 `;
 
 export const FristText = styled.span`
@@ -25,6 +29,19 @@ export const MainText = styled.h1`
   font-size: 72px;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: 750px) {
+    font-size: 62px;
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 54px;
+  }
+  @media screen and (max-width: 530px) {
+    font-size: 46px;
+  }
+  @media screen and (max-width: 479px) {
+    font-size: 38px;
+  }
 `;
 
 export const SecundaryText = styled.p`
@@ -40,6 +57,12 @@ export const AboutText = styled.span`
 export const DivBtns = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
+  @media screen and (max-width: 530px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const BtnSectionOne = styled.button`
@@ -58,6 +81,10 @@ export const BtnSectionOne = styled.button`
   &:hover {
     background-color: #57bdd1;
     color: #fff;
+  }
+
+  @media screen and (max-width: 1000px) {
+    margin-right: 0;
   }
 `;
 
@@ -80,6 +107,11 @@ export const DivTechs = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ContainerTech = styled.div`
@@ -90,6 +122,12 @@ export const ContainerTech = styled.div`
   text-align: center;
   padding-bottom: 30px;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 1000px) {
+    width: 70vw;
+    margin: 0;
+    margin-top: 10px;
+  }
 `;
 
 export const TitleTechs = styled.h2`
