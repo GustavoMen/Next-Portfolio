@@ -76,7 +76,7 @@ export const DivCategories = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 230px;
+  height: 260px;
 
   @media screen and (max-width: 700px) {
     height: 270px;
@@ -175,7 +175,7 @@ export const BtnProjectTwo = styled.button`
   border-radius: 50px;
   margin-bottom: 16px;
   margin-top: 16px;
-  width: 250px;
+  width: 200px;
   height: 50px;
   font-weight: bold;
   font-size: 18px;
