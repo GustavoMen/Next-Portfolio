@@ -56,7 +56,7 @@ export const ProjectAbout = styled.p`
 `;
 
 export const DivAbout = styled.div`
-  height: 160px;
+  height: 200px;
 
   @media screen and (max-width: 700px) {
     height: 200px;

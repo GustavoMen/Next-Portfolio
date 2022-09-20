@@ -1,8 +1,17 @@
 import Head from "next/head";
+import Aos from "aos";
+import { useEffect } from "react";
 
 import {SocialContainer,DivToCopy,CopyItem, BtnContact, LinkedinIcon, DivIconText, GithubIcon, EmailIcon, ItemText } from '../styles/contact.elements'
  
 export default function Contact() {
+
+   useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+   }, []);
+  
   return (
     <>
       <Head>
@@ -13,7 +22,7 @@ export default function Contact() {
 
           <SocialContainer>
               
-              <DivToCopy>
+              <DivToCopy data-aos="fade-right">
                   <CopyItem>Email:</CopyItem>
                   <ItemText>contato.gustavomendonca@gmail.com</ItemText>
                   <CopyItem>Telefone:</CopyItem>
@@ -23,7 +32,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact>
+                <BtnContact data-aos="fade-down">
                   <DivIconText>
                       <LinkedinIcon />
                       LinkedIn
@@ -34,7 +43,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact>
+                <BtnContact data-aos="fade-down">
                   <DivIconText>
                       <GithubIcon />
                       Github
@@ -45,7 +54,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact>
+                <BtnContact data-aos="fade-down">
                   <DivIconText>
                       <EmailIcon />
                       E-mail

@@ -1,8 +1,16 @@
 import Head from "next/head";
+import Aos from "aos";
+import { useEffect } from "react";
 
 import { SectionOne, Title, DivProject, ContainerProject, ProjectTitle, ProjectDate, ProjectAbout, DivCategories, Category, SubTitle, CategoryList, ListItem,DivOneBtn,DivTwoBtn, BtnProjectOne,BtnProjectTwo, DivAbout, LinkPage} from '../styles/experience.elements'
 
 export default function Home() {
+
+   useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -16,7 +24,7 @@ export default function Home() {
 
         <ContainerProject>
           
-          <DivProject>
+          <DivProject data-aos="fade-right">
             <DivAbout>
             <ProjectTitle>
               Oficina da Informatica | Desenvolvedor Front end (Freelancer)
@@ -55,7 +63,7 @@ export default function Home() {
             </DivOneBtn>
           </DivProject>
 
-          <DivProject>
+          <DivProject data-aos="fade-left">
             <DivAbout>
             <ProjectTitle>
               Projeto Pessoal | Desenvolvedor Front end

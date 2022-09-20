@@ -1,9 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
+import "aos/dist/aos.css";
+import Aos from "aos";
+import { useEffect } from "react";
 
 import { SectionOne, ContainerText,  FristText, MainText, SecundaryText, AboutText, BtnSectionOne, DivBtns, SectionTwo, Title, DivTechs, ContainerTech, TitleTechs, Techs} from '../styles/index.elements'
 
 export default function Home() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -12,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <SectionOne>
+      <SectionOne data-aos="fade-up">
         <ContainerText>
           <FristText>Ola mundo, meu nome é</FristText>
           <MainText>Gustavo Mendonça</MainText>
@@ -35,7 +44,7 @@ export default function Home() {
         </ContainerText>
       </SectionOne>
 
-      <SectionTwo>
+      <SectionTwo data-aos="fade-right">
         <Title>Habilidades</Title>
         <DivTechs>
           <ContainerTech>
