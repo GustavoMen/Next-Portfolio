@@ -43,7 +43,7 @@ export default function Home() {
             <Techs>Javascript, Typescript, React, Redux, Context API, Styled-Components</Techs>
           </ContainerTech>
           <ContainerTech><TitleTechs>Back End</TitleTechs>
-            <Techs>Node, Express, MongoDB, PostfreSQL, TypeORM, Sequelize</Techs></ContainerTech>
+            <Techs>Node, Express, MongoDB, PostgreSQL, TypeORM, Sequelize</Techs></ContainerTech>
           <ContainerTech><TitleTechs>Geral</TitleTechs>
             <Techs>Typescript, Docker, Git, Github, Jest</Techs></ContainerTech>
         </DivTechs>

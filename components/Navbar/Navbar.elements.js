@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { DiMagento } from "react-icons/di";
+import Link from "next/link";
 
 export const Nav = styled.nav`
   align-items: center;
@@ -79,7 +80,13 @@ export const NavItem = styled.span`
 
   @media screen and (max-width: 960px) {
     margin-left: 0;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
+  }
+`;
+
+export const NavItemContainer = styled.div`
+  @media screen and (max-width: 960px) {
+    margin-top: 16px;
   }
 `;

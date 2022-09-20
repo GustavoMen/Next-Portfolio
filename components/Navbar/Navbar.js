@@ -6,6 +6,7 @@ import {
   NavMenu,
   NavIcon,
   NavLogo,
+  NavItemContainer,
 } from "./Navbar.elements";
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -48,29 +49,35 @@ const Navbar = () => {
             {click ? <FaTimes /> : <FaBars />}
           </MobileIcon>
           <NavMenu onClick={handleClick} click={click}>
-            <Link href="/">
-              <a>
-                <NavItem>Home</NavItem>
-              </a>
-            </Link>
+            <NavItemContainer>
+              <Link href="/">
+                <a>
+                  <NavItem>Home</NavItem>
+                </a>
+              </Link>
+            </NavItemContainer>
 
-            <Link href="/experience">
-              <a>
-                <NavItem>Experience</NavItem>
-              </a>
-            </Link>
-
-            <Link href="/contact">
-              <a>
-                <NavItem>Contact</NavItem>
-              </a>
-            </Link>
-
-            <Link href="/resume">
-              <a>
-                <NavItem>Resume</NavItem>
-              </a>
-            </Link>
+            <NavItemContainer>
+              <Link href="/experience">
+                <a>
+                  <NavItem>Experience</NavItem>
+                </a>
+              </Link>
+            </NavItemContainer>
+            <NavItemContainer>
+              <Link href="/contact">
+                <a>
+                  <NavItem>Contact</NavItem>
+                </a>
+              </Link>
+            </NavItemContainer>
+            <NavItemContainer>
+              <Link href="/resume">
+                <a>
+                  <NavItem>Resume</NavItem>
+                </a>
+              </Link>
+            </NavItemContainer>
           </NavMenu>
         </Nav>
       </IconContext.Provider>

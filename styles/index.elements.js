@@ -66,7 +66,7 @@ export const DivBtns = styled.div`
 `;
 
 export const BtnSectionOne = styled.button`
-  margin-top: 20px;
+  margin-top: 32px;
   margin-right: 40px;
   height: 60px;
   width: 200px;
@@ -115,7 +115,7 @@ export const DivTechs = styled.div`
 `;
 
 export const ContainerTech = styled.div`
-  margin: 10px;
+  margin: 16px;
   width: 25vw;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -124,9 +124,9 @@ export const ContainerTech = styled.div`
   margin-bottom: 50px;
 
   @media screen and (max-width: 1000px) {
-    width: 70vw;
+    width: 80vw;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 16px;
   }
 `;
 
