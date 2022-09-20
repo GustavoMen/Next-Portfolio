@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.div`
+export const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -69,6 +69,18 @@ export const BtnFooter = styled.button`
   font-size: 18px;
   cursor: pointer;
   transition: ease-out 0.2s;
+
+  @media screen and (max-width: 960px) {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(71, 70, 70, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    color: #fff;
+    border: 2px solid #57bdd1;
+  }
 
   @media screen and (max-width: 321px) {
     font-size: 12px;

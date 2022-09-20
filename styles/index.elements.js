@@ -122,11 +122,17 @@ export const ContainerTech = styled.div`
   text-align: center;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  border: 2px solid transparent;
+  transition: border 0.2s;
 
   @media screen and (max-width: 1000px) {
     width: 80vw;
     margin: 0;
     margin-top: 16px;
+  }
+
+  &:hover {
+    border-color: #57bdd1;
   }
 `;
 
