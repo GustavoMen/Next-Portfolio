@@ -72,11 +72,13 @@ const Navbar = () => {
               </Link>
             </NavItemContainer>
             <NavItemContainer>
-              <Link href="/resume">
-                <a>
-                  <NavItem>Resume</NavItem>
-                </a>
-              </Link>
+              <a
+                href="https://drive.google.com/file/d/1SMiwxmLHsv2Nc7Qs9G0R71lH7niB0BFL/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavItem>Resume</NavItem>
+              </a>
             </NavItemContainer>
           </NavMenu>
         </Nav>
