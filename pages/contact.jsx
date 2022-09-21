@@ -20,9 +20,9 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-          <SocialContainer>
+          <SocialContainer data-aos="fade-right">
               
-              <DivToCopy data-aos="fade-right">
+              <DivToCopy>
                   <CopyItem>Email:</CopyItem>
                   <ItemText>contato.gustavomendonca@gmail.com</ItemText>
                   <CopyItem>Telefone:</CopyItem>
@@ -32,7 +32,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact data-aos="fade-down">
+                <BtnContact>
                   <DivIconText>
                       <LinkedinIcon />
                       LinkedIn
@@ -43,7 +43,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact data-aos="fade-down">
+                <BtnContact>
                   <DivIconText>
                       <GithubIcon />
                       Github
@@ -54,7 +54,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
               >
-                <BtnContact data-aos="fade-down">
+                <BtnContact>
                   <DivIconText>
                       <EmailIcon />
                       E-mail

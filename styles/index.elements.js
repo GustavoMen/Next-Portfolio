@@ -120,6 +120,7 @@ export const ContainerTech = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   text-align: center;
+  padding: 10px;
   padding-bottom: 30px;
   margin-bottom: 50px;
   border: 2px solid transparent;

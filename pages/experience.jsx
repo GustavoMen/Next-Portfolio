@@ -22,9 +22,9 @@ export default function Home() {
       <SectionOne>
         <Title>Veja alguns projetos que ja desenvolvi.</Title>
 
-        <ContainerProject>
+        <ContainerProject data-aos="fade-up">
           
-          <DivProject data-aos="fade-right">
+          <DivProject>
             <DivAbout>
             <ProjectTitle>
               Oficina da Informatica | Desenvolvedor Front end (Freelancer)
@@ -63,7 +63,7 @@ export default function Home() {
             </DivOneBtn>
           </DivProject>
 
-          <DivProject data-aos="fade-left">
+          <DivProject>
             <DivAbout>
             <ProjectTitle>
               Projeto Pessoal | Desenvolvedor Front end
